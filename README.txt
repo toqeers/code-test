@@ -1,5 +1,5 @@
 HOW TO RUN THE APPLICATION
-Unzip the source code, it should create code-test folder
+clone this repository, it should create folder code-test
 move to new folder i.e. cd code-test
 code is already built, but if you want you can build it with command "./gradlew clean build" otherwise skip this step
 move to build/libs folder
