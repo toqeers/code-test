@@ -1,0 +1,9 @@
+{
+  "access_token": "dummy-access-token",
+  "expires_in": 7200,
+  "organisation": {
+    "id": 1,
+    "name": "WallStreetDocs Ltd"
+  },
+  "token_type": "Bearer"
+}

@@ -1,0 +1,70 @@
+apply{
+    from rootProject.file("external-dependencies.gradle")
+    plugin 'groovy'
+    plugin 'org.springframework.boot'
+    plugin 'application'
+//    plugin "maven-publish"
+    plugin "java"
+    plugin "idea"
+}
+
+group 'toqeer'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+ext {
+    artifactName = "code-test"
+    packageForManualDeploy = true
+    artifactDir = "code-test"
+}
+jar {
+    baseName = artifactName
+}
+
+dependencies {
+    compile spring.boot.starter
+    compile spring.boot.starterWeb
+    compile spring.boot.starterActuator
+    runtime spring.boot.aop
+    compile spring.framework.contextSupport
+    compile jersey.client
+    compile jersey.jackson
+    compile guava
+    compile logback.classic
+    compile logback.access
+    compile lombok
+    compile springfox.swagger
+    compile springfox.swaggerui
+    compile jackson
+    compile commons.lang
+    compile commons.io
+
+    testCompile spring.boot.starterTest
+    testCompile wiremock
+    testCompile groovy
+    testCompile httpBuilder
+    testCompile spock.core
+    testCompile spock.spring
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+    ext {
+        baseVersion = "0"
+        springBootVersion = "1.5.12.RELEASE"
+    }
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE")
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5")
+    }
+}

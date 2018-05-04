@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.co.ts.service.AuthServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-04T11:12:48" hostname="o2" time="0.012">
+  <properties/>
+  <testcase name="GetAccessToken: should return access token fro auth service" classname="uk.co.ts.service.AuthServiceTest" time="0.012"/>
+  <system-out><![CDATA[12:12:48.793 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'grantType' of type [null] on target object [uk.co.ts.service.AuthService@1dda9a0e] or target class [class uk.co.ts.service.AuthService] to value [test-grant-type]
+12:12:48.793 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'clientId' of type [null] on target object [uk.co.ts.service.AuthService@1dda9a0e] or target class [class uk.co.ts.service.AuthService] to value [dummy-client]
+12:12:48.794 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'clientSecret' of type [null] on target object [uk.co.ts.service.AuthService@1dda9a0e] or target class [class uk.co.ts.service.AuthService] to value [very-secret]
+12:12:48.794 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'authServiceUrl' of type [null] on target object [uk.co.ts.service.AuthService@1dda9a0e] or target class [class uk.co.ts.service.AuthService] to value [http://auth.service.url/some/path]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

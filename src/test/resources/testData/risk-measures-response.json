@@ -1,0 +1,478 @@
+{
+  "MRM": {
+    "VaRrelative": "77.6151",
+    "VeV": "8.3589",
+    "MRMclass": "3"
+  },
+  "adjustMethod": "historical",
+  "accrualMode": "discounted",
+  "IHPspreadFlag": true,
+  "IHPspread": {
+    "normal": [
+      0.02,
+      0.01,
+      0.005
+    ],
+    "stress": [
+      0.05,
+      0.05,
+      0.05
+    ]
+  },
+  "IHPstateMode": "underlying",
+  "normal": {
+    "TEXT": [
+      "The probability that you get back more than your investment of 10000 is 94.46 percent.",
+      "The probability that you get back less than your investment of 10000 is 5.54 percent.",
+      "The maximal amount that you can get back is 10985.69.",
+      "The probability that you get back more than 11000 is 0 percent.",
+      "The probability that you get back more than 15000 is 0 percent.",
+      "The probability that you get back less than 9000 is 1.31 percent.",
+      "The probability that you get back less than 5000 is 0 percent.",
+      "The probability that you get back less than 1000 is 0 percent.",
+      "The amount that you get back will be above or below 10868.90 with equal probability. This amount is called the moderate scenario.",
+      "The amount that you get back will be lower than 10985.69 with probability of 90 percent. It will be greater with probability of 10 percent. This amount is called the favourable scenario.",
+      "The amount that you get back will be greater than 10534.02 with probability of 90 percent. It will be lower with probability of 10 percent. This amount is called the unfavourable scenario.",
+      "The amount that you get back will be greater than 9895.46 with probability of 99 percent. It will be lower with probability of 1 percent."
+    ],
+    "Scenarios": {
+      "RHPcashflow": {
+        "1": -11.503646516241318,
+        "5": -0.9992096263723056,
+        "10": 5.104360689274657,
+        "50": 8.3052509029568,
+        "90": 9.421489061760695,
+        "95": 9.421489061760695,
+        "99": 9.421489061760695
+      },
+      "RHPyieldAfterCost": {
+        "1": 87.09078789607432,
+        "5": 98.08064347066771,
+        "10": 104.46626480016783,
+        "50": 107.81507078827586,
+        "90": 108.9828912322195,
+        "95": 108.9828912322195,
+        "99": 108.9828912322195
+      },
+      "RHPannualReturnAfterCost": {
+        "1": "-5.96699",
+        "5": "-0.858943",
+        "10": "1.96395",
+        "50": "3.40615",
+        "90": "3.90322",
+        "95": "3.90322",
+        "99": "3.90322"
+      },
+      "RHPpremature": {
+        "10": "Thu Apr 30 2020",
+        "50": "Thu Jan 31 2019"
+      },
+      "RHPyieldShort": {
+        "1": 112.03523950118596,
+        "5": 101.04538392659256,
+        "10": 94.65976259709244,
+        "50": 91.31095660898441,
+        "90": 90.14313616504077,
+        "95": 90.14313616504077,
+        "99": 90.14313616504077
+      },
+      "RHPreturnShort": {
+        "1": 12.035239501185956,
+        "5": 1.0453839265925637,
+        "10": -5.340237402907562,
+        "50": -8.689043391015588,
+        "90": -9.856863834959228,
+        "95": -9.856863834959228,
+        "99": -9.856863834959228
+      },
+      "RHPannualReturnShort": {
+        "1": "5.18864",
+        "5": "0.463981",
+        "10": "-2.41328",
+        "50": "-3.96537",
+        "90": "-4.51404",
+        "95": "-4.51404",
+        "99": "-4.51404"
+      },
+      "IHP1cashflow": {
+        "1": -5.172997399879653,
+        "5": -0.9749074348016105,
+        "10": -0.13566849916918555,
+        "50": 3.0792712049034368,
+        "90": 4.3346412181032346,
+        "95": 4.52482514681808,
+        "99": 4.797696414955509
+      },
+      "IHP1yieldAfterCost": {
+        "1": 94.28795412753121,
+        "5": 98.68004128927652,
+        "10": 99.55806214768836,
+        "50": 102.9215668647151,
+        "90": 104.23494856069607,
+        "95": 104.4339210454754,
+        "99": 104.71940191976945
+      },
+      "IHP1annualReturnAfterCost": {
+        "1": "-5.71205",
+        "5": "-1.31996",
+        "10": "-0.441938",
+        "50": "2.92157",
+        "90": "4.23495",
+        "95": "4.43392",
+        "99": "4.71940"
+      },
+      "IHP1premature": {
+        "90": "Wed Oct 31 2018",
+        "95": "Wed Oct 31 2018",
+        "99": "Thu Jan 31 2019"
+      },
+      "IHP1yieldShort": {
+        "1": 105.4120458724688,
+        "5": 101.01995871072349,
+        "10": 100.14193785231164,
+        "50": 96.7784331352849,
+        "90": 95.46505143930393,
+        "95": 95.2660789545246,
+        "99": 94.98059808023055
+      },
+      "IHP1returnShort": {
+        "1": 5.412045872468795,
+        "5": 1.0199587107234862,
+        "10": 0.14193785231164213,
+        "50": -3.2215668647151006,
+        "90": -4.534948560696066,
+        "95": -4.733921045475398,
+        "99": -5.01940191976945
+      },
+      "IHP1annualReturnShort": {
+        "1": "5.41205",
+        "5": "1.01996",
+        "10": "0.141938",
+        "50": "-3.22157",
+        "90": "-4.53495",
+        "95": "-4.73392",
+        "99": "-5.01940"
+      },
+      "IHP1ARafterCostRHP": {
+        "1": "-2.58409",
+        "5": "-0.589709",
+        "10": "-0.196958",
+        "50": "1.29007",
+        "90": "1.86339",
+        "95": "1.94990",
+        "99": "2.07386"
+      }
+    },
+    "CostOverTime": {
+      "core": [
+        [
+          139.133284765758,
+          null,
+          202.31115553440446
+        ],
+        [
+          1.39133284765758,
+          null,
+          2.0231115553440446
+        ],
+        [
+          1.3913328476575781,
+          null,
+          0.8592522947439729
+        ],
+        [
+          0.6072254870498117,
+          null,
+          0.8592522947439729
+        ],
+        [
+          104.31289971237268,
+          null,
+          109.8381823436199
+        ],
+        [
+          102.9215668647151,
+          null,
+          107.81507078827586
+        ]
+      ],
+      "rownames": [
+        "IHP1",
+        "IHP2",
+        "RHP"
+      ],
+      "colnames": [
+        "Money",
+        "Percentage",
+        "Annual",
+        "Annual (RHP)",
+        "grossYield",
+        "netYield"
+      ],
+      "name": "RIY total"
+    },
+    "CompositionOfCosts": {
+      "core": [
+        [
+          1.1491389526043179,
+          0.2,
+          0,
+          0,
+          0.673972602739726,
+          0,
+          0
+        ],
+        [
+          0.4869720590428894,
+          0.08504566684719439,
+          0,
+          0,
+          0.2869402569687596,
+          0,
+          0
+        ]
+      ],
+      "rownames": [
+        "Entry costs",
+        "Exit costs",
+        "Ongoing-Transaction",
+        "Ongoing-Insurance",
+        "Ongoing-Others",
+        "Performance Fee",
+        "Carried Interests"
+      ],
+      "colnames": [
+        "Percentage",
+        "Annualized"
+      ],
+      "name": "RIY composition"
+    }
+  },
+  "stress": {
+    "TEXT": [
+      "The probability that you get back more than your investment of 10000 is 75.84 percent.",
+      "The probability that you get back less than your investment of 10000 is 24.16 percent.",
+      "The maximal amount that you can get back is 10985.69.",
+      "The probability that you get back more than 11000 is 0 percent.",
+      "The probability that you get back more than 15000 is 0 percent.",
+      "The probability that you get back less than 9000 is 14.18 percent.",
+      "The probability that you get back less than 5000 is 0.02 percent.",
+      "The probability that you get back less than 1000 is 0 percent.",
+      "The amount that you get back will be above or below 10807.75 with equal probability. This amount is called the moderate scenario.",
+      "The amount that you get back will be lower than 10985.69 with probability of 90 percent. It will be greater with probability of 10 percent. This amount is called the favourable scenario.",
+      "The amount that you get back will be greater than 8528.63 with probability of 90 percent. It will be lower with probability of 10 percent. This amount is called the unfavourable scenario.",
+      "The amount that you get back will be greater than 7789.41 with probability of 99 percent. It will be lower with probability of 1 percent."
+    ],
+    "Scenarios": {
+      "RHPcashflow": {
+        "1": -32.251021040372876,
+        "5": -21.129455183170464,
+        "10": -14.063833490631254,
+        "50": 7.720718990669752,
+        "90": 9.421489061760695,
+        "95": 9.421489061760695,
+        "99": 9.421489061760695
+      },
+      "RHPyieldAfterCost": {
+        "1": 65.3846600985806,
+        "5": 77.02016267862491,
+        "10": 84.4122925719093,
+        "50": 107.20352717464617,
+        "90": 108.9828912322195,
+        "95": 108.9828912322195,
+        "99": 108.9828912322195
+      },
+      "RHPannualReturnAfterCost": {
+        "1": "-17.2317",
+        "5": "-10.9723",
+        "10": "-7.26545",
+        "50": "3.14465",
+        "90": "3.90322",
+        "95": "3.90322",
+        "99": "3.90322"
+      },
+      "RHPpremature": {
+        "50": "Tue Apr 30 2019"
+      },
+      "RHPyieldShort": {
+        "1": 133.74136729867968,
+        "5": 122.10586471863536,
+        "10": 114.71373482535097,
+        "50": 91.9225002226141,
+        "90": 90.14313616504077,
+        "95": 90.14313616504077,
+        "99": 90.14313616504077
+      },
+      "RHPreturnShort": {
+        "1": 33.74136729867968,
+        "5": 22.10586471863536,
+        "10": 14.713734825350969,
+        "50": -8.077499777385896,
+        "90": -9.856863834959228,
+        "95": -9.856863834959228,
+        "99": -9.856863834959228
+      },
+      "RHPannualReturnShort": {
+        "1": "13.8161",
+        "5": "9.29702",
+        "10": "6.30070",
+        "50": "-3.67961",
+        "90": "-4.51404",
+        "95": "-4.51404",
+        "99": "-4.51404"
+      },
+      "IHP1cashflow": {
+        "1": -25.219041433215956,
+        "5": -16.608368903168966,
+        "10": -13.677341495018215,
+        "50": -4.2824221470262,
+        "90": -0.9352108559856737,
+        "95": -0.7672930734919375,
+        "99": -0.49550166679252644
+      },
+      "IHP1yieldAfterCost": {
+        "1": 73.3155658807346,
+        "5": 82.3241446839069,
+        "10": 85.39061728386301,
+        "50": 95.21968359668588,
+        "90": 98.72157227971098,
+        "95": 98.8972496813042,
+        "99": 99.18160079287334
+      },
+      "IHP1annualReturnAfterCost": {
+        "1": "-26.6844",
+        "5": "-17.6759",
+        "10": "-14.6094",
+        "50": "-4.78032",
+        "90": "-1.27843",
+        "95": "-1.10275",
+        "99": "-0.818399"
+      },
+      "IHP1premature": {
+        "90": "Tue Apr 30 2019",
+        "95": "Thu Jan 31 2019",
+        "99": "Wed Oct 31 2018"
+      },
+      "IHP1yieldShort": {
+        "1": 126.3844341192654,
+        "5": 117.37585531609311,
+        "10": 114.309382716137,
+        "50": 104.48031640331412,
+        "90": 100.97842772028902,
+        "95": 100.8027503186958,
+        "99": 100.51839920712666
+      },
+      "IHP1returnShort": {
+        "1": 26.384434119265407,
+        "5": 17.37585531609311,
+        "10": 14.309382716136994,
+        "50": 4.48031640331412,
+        "90": 0.9784277202890195,
+        "95": 0.8027503186958,
+        "99": 0.518399207126663
+      },
+      "IHP1annualReturnShort": {
+        "1": "26.3844",
+        "5": "17.3759",
+        "10": "14.3094",
+        "50": "4.48032",
+        "90": "0.978428",
+        "95": "0.802750",
+        "99": "0.518399"
+      },
+      "IHP1ARafterCostRHP": {
+        "1": "-12.9045",
+        "5": "-8.29367",
+        "10": "-6.78857",
+        "50": "-2.15677",
+        "90": "-0.571088",
+        "95": "-0.492369",
+        "99": "-0.365118"
+      }
+    },
+    "CostOverTime": {
+      "core": [
+        [
+          130.99029831967925,
+          null,
+          201.66458752192398
+        ],
+        [
+          1.3099029831967925,
+          null,
+          2.0166458752192398
+        ],
+        [
+          1.3099029831967983,
+          null,
+          0.8592028924212514
+        ],
+        [
+          0.5968610788635753,
+          null,
+          0.8592028924212514
+        ],
+        [
+          96.52958657988268,
+          null,
+          109.22017304986541
+        ],
+        [
+          95.21968359668588,
+          null,
+          107.20352717464617
+        ]
+      ],
+      "rownames": [
+        "IHP1",
+        "IHP2",
+        "RHP"
+      ],
+      "colnames": [
+        "Money",
+        "Percentage",
+        "Annual",
+        "Annual (RHP)",
+        "grossYield",
+        "netYield"
+      ],
+      "name": "RIY total"
+    },
+    "CompositionOfCosts": {
+      "core": [
+        [
+          1.142673272479513,
+          0.2,
+          0,
+          0,
+          0.673972602739726,
+          0,
+          0
+        ],
+        [
+          0.48575052909107796,
+          0.08531259710855554,
+          0,
+          0,
+          0.2878428503232833,
+          0,
+          0
+        ]
+      ],
+      "rownames": [
+        "Entry costs",
+        "Exit costs",
+        "Ongoing-Transaction",
+        "Ongoing-Insurance",
+        "Ongoing-Others",
+        "Performance Fee",
+        "Carried Interests"
+      ],
+      "colnames": [
+        "Percentage",
+        "Annualized"
+      ],
+      "name": "RIY composition"
+    }
+  }
+}
